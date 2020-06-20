@@ -32,7 +32,7 @@ def locate_large_folders(drive):
             print(f"{folders[0]} is larger than {size_to_locate}GB.")
             end = time.time()
             print(f"Took {round(end - start)} seconds.")
-            continue
+            
 
 
 locate_large_folders(drive_to_walk)
